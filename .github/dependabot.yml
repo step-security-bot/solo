@@ -11,3 +11,8 @@ updates:
       interval: "daily"
     open-pull-requests-limit: 15
     versioning-strategy: increase
+
+  - package-ecosystem: npm
+    directory: /.github/workflows/autogen
+    schedule:
+      interval: daily
